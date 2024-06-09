@@ -1,0 +1,38 @@
+body{
+    background-color: rgb(5, 5, 5,0.1);
+}
+
+h1{
+    text-align: center;
+}
+.navbar{
+    background-color: blueviolet;
+    overflow: hidden;
+    margin: auto;
+    display: flex; /* Add this */
+    justify-content: center; /* Add this */
+}
+nav a{
+   display: block;
+   padding: 14px 16px;
+   text-align: center;
+   font-size: 20px;
+
+
+}
+a{
+    color: aqua;
+}
+a:hover{
+   color: grey;
+}
+
+p{
+    text-align:center;
+}
+
+.image-croissant{
+    border-radius: 5px;
+    margin: 30px;
+    width: 80%;
+}
